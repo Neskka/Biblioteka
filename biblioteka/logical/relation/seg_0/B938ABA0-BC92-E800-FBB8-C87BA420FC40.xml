@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="wypozyczenia_ksiazki_fk" directorySegmentName="seg_0" id="B938ABA0-BC92-E800-FBB8-C87BA420FC40">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>A5EE9F14-2685-0C74-776D-6304AECCA61B</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<sourcePk>3C5128B6-B68B-39D3-C2B5-5DDD84E825CA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F6DEF79F-85C5-E0C6-7BEC-E71B667D0371</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>738FF218-CF53-3EE3-FD2A-AC40A1A8EF5A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

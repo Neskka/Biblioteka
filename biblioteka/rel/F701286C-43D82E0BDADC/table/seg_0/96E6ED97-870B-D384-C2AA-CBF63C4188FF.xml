@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96E6ED97-870B-D384-C2AA-CBF63C4188FF" name="autorzy">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>9BD1CBDA-D324-4FF6-7BEA-C5936567057C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_autora" id="13448434-5D62-1DEC-53A0-59601A2F2013">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>2254D4EE-A037-CCAC-5DD2-FA01DF49A562</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F5316A-B8BF-C028-C075-3A7153BDCF46</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="2D3A5D0F-C809-6402-38ED-257E37E8CFC5">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>99F66EBD-0E14-DDEB-EB04-15070BEFD4FC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4A0123F4-CC09-AF65-6F0D-487414A3D9C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="EEBE8734-91BB-985A-949F-DF9500DF8386">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>7D63F7A0-809A-62FA-18AE-DCD5A2A9CA5C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DC5524F2-1F38-BDAA-C2EC-27EED02543FE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kraj" id="5DAB1BF7-5A4F-3EDB-29A4-7981DFD6E2C4">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>DDF619F0-0F70-7C51-54CA-941DB8549877</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DC389B36-997A-7EF5-CF0D-58970C921AFE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07FBF4C6-511C-58EA-64E7-4EDAC9602696" name="autorzy_pk">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>F5A19C70-86BA-48E4-64CF-A08E58FBB35B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13448434-5D62-1DEC-53A0-59601A2F2013"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

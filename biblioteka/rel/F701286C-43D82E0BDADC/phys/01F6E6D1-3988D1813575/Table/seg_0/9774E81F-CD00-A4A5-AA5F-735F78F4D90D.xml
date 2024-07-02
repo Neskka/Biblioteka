@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="filie" directorySegmentName="seg_0" id="9774E81F-CD00-A4A5-AA5F-735F78F4D90D">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ulica" id="3EF935B9-B238-987D-6CC1-F9B43E3DA54A">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_budynku" id="4A37BFCA-DAFF-AD5E-8A6B-A5CD7F0BE1B3">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_filii" id="79FD9747-3F98-462C-D624-7330C5D47465">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_filii" id="B34CEEA7-49FB-DECD-18A7-EA887E12864C">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="filie_pk" id="337272F1-37AC-1635-384C-FE95017A5CE1">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="filie_nr_filii_un" id="C8BFA18E-9E81-B5CF-7834-4DF3AE2177D7">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

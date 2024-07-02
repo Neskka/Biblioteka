@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6DEF79F-85C5-E0C6-7BEC-E71B667D0371" name="ksiazki">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>198F324C-B0C9-1E6B-6304-B6C6405A673B</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id ksiazki" id="DD183A0F-3804-3C8C-5968-7662AFE332C8">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>7AB92DF0-4713-EBAC-D52D-D6502EB8C81E</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F5316A-B8BF-C028-C075-3A7153BDCF46</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tytul" id="7448767A-8A55-FFA2-6A85-F8A95F07B2CA">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>784E48F0-86C9-C051-A26B-94853C11456A</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3F77CF4-E102-98C2-2233-247A1D5A2963</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="czy ebook" id="5A4BDB15-C717-F6B7-2764-F4AD6FAB8F6A">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>1A14BF87-5BDB-8C29-0F8C-3CA512594F2A</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>CFB45A8A-BFF7-65FD-D61A-FABED24D5B4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rok wydania" id="3C0ECFF4-5C15-5B06-F9E7-2077EE9D0D94">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>DEF419A5-A4DC-6E44-646B-41E61688AA52</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>38D5B74A-35A6-F61A-610F-5A66A6D37D5E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="twarda okladka" id="D65193BF-9114-0B0D-203E-D87A6858A399">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>A0004532-1C45-4EA6-0565-EF6A236012CC</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>CFB45A8A-BFF7-65FD-D61A-FABED24D5B4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gatunki id gatunku" id="D28CA907-D9FD-3B50-AFD1-1BC919CC01C7">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>5C1F220E-FE0F-FA8C-4E81-19E61E1A9FAC</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<referedAttribute>F9F674F6-435B-D6BC-7BA9-B31776A58913</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F5316A-B8BF-C028-C075-3A7153BDCF46</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pozycja id pozycji" id="C7705AC1-A2D2-7209-D591-4EDD510F369C">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>EF4A6AA4-98E3-E36A-698F-367F5A17D14E</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<referedAttribute>ACC3082A-BD05-90E9-454C-AE09C2371B21</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A841E6C7-9A09-D0DA-D1BF-CA1CA06856AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="filie id filii" id="6FF88066-D4CB-0456-43B0-9919A65CC169">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>975DB82E-1248-45F8-27A8-700D6F31D17A</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<referedAttribute>71DC5BBD-9A7B-F842-9262-2BFCE282C2B6</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7EC250A-9E20-CAFA-671D-8CE5D55635E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C5128B6-B68B-39D3-C2B5-5DDD84E825CA" name="ksiazki pk">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>2C297BD1-7D46-1C5D-614C-75302A2C245B</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD183A0F-3804-3C8C-5968-7662AFE332C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

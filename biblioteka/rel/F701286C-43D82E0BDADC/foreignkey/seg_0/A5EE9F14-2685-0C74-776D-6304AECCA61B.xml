@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A5EE9F14-2685-0C74-776D-6304AECCA61B" containerWithKeyObject="6C6A7100-AA2E-0482-A689-CF34C4CD4334" localFKIndex="225558A3-AF6F-70AA-CCCD-704FF89FB77E" name="wypozyczenia_ksiazki_fk">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>A7620516-710D-9F92-7FA5-9822261DA2E4</importedID>
+<referredTableLongName>ksiazki</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>198F324C-B0C9-1E6B-6304-B6C6405A673B</referredTableID>
+<keyObject>2C297BD1-7D46-1C5D-614C-75302A2C245B</keyObject>
+<referredKeyID>2C297BD1-7D46-1C5D-614C-75302A2C245B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ksiazki</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

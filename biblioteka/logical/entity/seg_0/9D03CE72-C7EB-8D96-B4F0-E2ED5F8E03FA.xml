@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D03CE72-C7EB-8D96-B4F0-E2ED5F8E03FA" name="rezerwacje">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>80B709A8-212D-E3DC-D5F5-338F22813C8A</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ksiazki id ksiazki" id="53CF4D07-E6F0-AA8B-E448-9349AC58C28A">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>7B4CD6F1-417E-CA69-8808-7615BF1B9177</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<referedAttribute>DD183A0F-3804-3C8C-5968-7662AFE332C8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F5316A-B8BF-C028-C075-3A7153BDCF46</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id rezerwacji" id="25082FEE-377B-9E00-FC11-32D21B2443AF">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>C03FE48A-38F0-6E7D-1937-CF374B1B4635</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7EC250A-9E20-CAFA-671D-8CE5D55635E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numer w kolejce" id="D26C2918-83AB-C43F-E02E-43D91F0DE31C">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>CF8732B0-3E20-33F8-EBBD-EEBA6A7D7A9D</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>520DFA65-C5F9-5656-D680-CAB6E23838CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="czytelnicy id czytelnika" id="0C595C21-A001-DA62-EFCF-1A2CEEDBCFDF">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>147B1DC4-E4F6-2829-4817-931762BB4803</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<referedAttribute>D4313112-FB67-DA3A-E202-300ED262CF2C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7EC250A-9E20-CAFA-671D-8CE5D55635E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A1FD184-8B3D-1F22-32E9-415F952E2161" name="rezerwacje pk">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>A62E794E-529F-F298-B06A-3A0CED85A783</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25082FEE-377B-9E00-FC11-32D21B2443AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

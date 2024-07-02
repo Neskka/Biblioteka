@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="198F324C-B0C9-1E6B-6304-B6C6405A673B" name="ksiazki">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>2C851900-38B3-32B4-1EDE-EED396EF02B5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ksiazki" id="7AB92DF0-4713-EBAC-D52D-D6502EB8C81E">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>1D063EC3-C931-4E73-503A-BA31E58585D6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F5316A-B8BF-C028-C075-3A7153BDCF46</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tytul" id="784E48F0-86C9-C051-A26B-94853C11456A">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>1E802277-1AE1-CD8F-C2D4-FBF08610CEA5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3F77CF4-E102-98C2-2233-247A1D5A2963</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="czy_ebook" id="1A14BF87-5BDB-8C29-0F8C-3CA512594F2A">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>2D4B354C-F81F-019A-AB82-B9818DD49464</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>CFB45A8A-BFF7-65FD-D61A-FABED24D5B4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rok_wydania" id="DEF419A5-A4DC-6E44-646B-41E61688AA52">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>EBBB1D69-4686-2A48-D3B7-BB40D20CF5A0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>38D5B74A-35A6-F61A-610F-5A66A6D37D5E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="twarda_okladka" id="A0004532-1C45-4EA6-0565-EF6A236012CC">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>711383D7-F0DC-05B3-F6FA-A3C6A6358B7D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>CFB45A8A-BFF7-65FD-D61A-FABED24D5B4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gatunki_id_gatunku" id="7D0F3A54-9C9C-CEA1-DC5D-0AD4C099E16D">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>7A47C913-78A8-A739-8FAA-A84FBBB49499</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F5316A-B8BF-C028-C075-3A7153BDCF46</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="163629F4-7E22-DDFF-D7C1-D9BA07742C34" referredColumn="6A6D32D8-4EE6-25FA-D8FF-106BD3673A2F"/>
+</associations>
+</Column>
+<Column name="pozycja_id_pozycji" id="64B17FCE-1B5E-2E02-7F4F-7491086874FD">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>3E1B4603-27AA-4F48-5E67-213F966F215A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A841E6C7-9A09-D0DA-D1BF-CA1CA06856AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5BB43E2-1D25-4FA2-BD2E-5DD2A7FC7985" referredColumn="5FF403E6-A7F7-318A-84B3-1D9EA8076871"/>
+</associations>
+</Column>
+<Column name="filie_id_filii" id="FAAF5565-DA10-7AF5-0E43-2A883620A965">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>D89C16F5-3B72-1B11-73D4-801C13AE3D13</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7EC250A-9E20-CAFA-671D-8CE5D55635E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF8A8D5D-4E1B-3A56-250D-50BF7C2AF6FA" referredColumn="B34CEEA7-49FB-DECD-18A7-EA887E12864C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C297BD1-7D46-1C5D-614C-75302A2C245B" name="ksiazki_pk">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>635E8786-6880-9B6C-1484-E11BEF6515D5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AB92DF0-4713-EBAC-D52D-D6502EB8C81E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92472942-0305-4049-CBB4-3D1347672E6D" name="ksiazki__idx">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>69B1603A-61A5-84CC-37C8-8661ECFF41EE</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64B17FCE-1B5E-2E02-7F4F-7491086874FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4867BDFC-D950-90C6-02D7-13A6CDA65D41" name="ksiazki_filie_fk">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAAF5565-DA10-7AF5-0E43-2A883620A965"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE1A9CED-0341-25C3-6DA9-4B961B621E76" name="ksiazki_gatunki_fk">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D0F3A54-9C9C-CEA1-DC5D-0AD4C099E16D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11D9141B-5574-DD98-D931-73122245D443" name="ksiazki_pozycja_fk">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64B17FCE-1B5E-2E02-7F4F-7491086874FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB00F3D8-59E8-3307-3F1C-CC11C27290E0" name="relation_5">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>7BE3E76D-6F54-0C3A-8128-6448F7FD18B9</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="autorzy_id_autora" id="93426897-3EC3-E4AF-AD20-61258369AE91">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>6F011EDC-B616-C2B5-BA20-8C62C87B7A29</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F5316A-B8BF-C028-C075-3A7153BDCF46</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9C97D44-7B48-7AD9-30FD-718B930E297E" referredColumn="13448434-5D62-1DEC-53A0-59601A2F2013"/>
+</associations>
+</Column>
+<Column name="ksiazki_id_ksiazki" id="4BC414FF-A627-0217-F053-E7C236B0DCFF">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>7103557E-05C5-DD0A-5194-1EAB483FEA2D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F5316A-B8BF-C028-C075-3A7153BDCF46</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5391F9D4-2798-EC0D-C2BC-D5DA8DADB8FF" referredColumn="7AB92DF0-4713-EBAC-D52D-D6502EB8C81E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3FAFC6FC-2090-B0F3-58BD-1F13667029AA" name="relation_5_pk">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>ED66F1C5-A612-4564-D720-FDA0929CECCE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93426897-3EC3-E4AF-AD20-61258369AE91"/>
+<colUsage columnID="4BC414FF-A627-0217-F053-E7C236B0DCFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49BBF580-1EF6-B049-63FA-E5AF487C2CAC" name="relation_5_autorzy_fk">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93426897-3EC3-E4AF-AD20-61258369AE91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34299541-EE47-2067-6B6B-1A5F54949CF3" name="relation_5_ksiazki_fk">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BC414FF-A627-0217-F053-E7C236B0DCFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3E45617-A1A5-9FE5-DD6A-308D8E92899A" name="autorzy">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>96E6ED97-870B-D384-C2AA-CBF63C4188FF</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id autora" id="95787BCE-04A1-6814-E71E-E4BD26085F30">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>13448434-5D62-1DEC-53A0-59601A2F2013</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F5316A-B8BF-C028-C075-3A7153BDCF46</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imie" id="4B30B814-89B9-176F-B043-B936BA3156E0">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>2D3A5D0F-C809-6402-38ED-257E37E8CFC5</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4A0123F4-CC09-AF65-6F0D-487414A3D9C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwisko" id="19E5F1BA-7595-EE0B-D385-B674787F6A05">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>EEBE8734-91BB-985A-949F-DF9500DF8386</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DC5524F2-1F38-BDAA-C2EC-27EED02543FE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kraj" id="1B365962-7C76-8060-0ED4-83A2A247355B">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>5DAB1BF7-5A4F-3EDB-29A4-7981DFD6E2C4</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DC389B36-997A-7EF5-CF0D-58970C921AFE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B87F73AF-F91A-FE0B-03CA-15A770A2E21E" name="autorzy pk">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>07FBF4C6-511C-58EA-64E7-4EDAC9602696</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95787BCE-04A1-6814-E71E-E4BD26085F30</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

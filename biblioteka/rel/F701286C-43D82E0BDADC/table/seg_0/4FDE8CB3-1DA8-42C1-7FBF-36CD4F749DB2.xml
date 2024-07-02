@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FDE8CB3-1DA8-42C1-7FBF-36CD4F749DB2" name="dane_logowania">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>D2C6AB65-2155-8C85-D113-E2B64FC97482</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="czytelnicy_id_czytelnika" id="C63CBCA5-9B7A-FD33-E0F2-86E478622AD5">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>7A06D7F2-F0C4-444B-459B-646CFF289919</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7EC250A-9E20-CAFA-671D-8CE5D55635E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36643A65-D9BE-AF8D-7DC2-D8374D7F9FD0" referredColumn="03B4702A-0A8F-B290-C60C-97575B5D83A9"/>
+</associations>
+</Column>
+<Column name="id_dane_logowania" id="9E4E95C7-7261-A6D1-971A-5BE75F48EC5F">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>17CB66E2-C957-5B70-0930-71879284E326</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7EC250A-9E20-CAFA-671D-8CE5D55635E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="8396C93F-3451-01B2-D01E-BF7AF64AA627">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>432C233A-C76E-5BC1-C4DE-EF790B9410B7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4A0123F4-CC09-AF65-6F0D-487414A3D9C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="haslo" id="2083B679-AAA2-C64C-2CE7-833B084C4F59">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>D6BF1CAA-FF7E-6696-2179-407D6C16C0DF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DC389B36-997A-7EF5-CF0D-58970C921AFE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66B3D4DA-786B-E5B2-8C33-E72EF10BDCF5" name="dane_logowania_pk">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>E9BEBF3C-D850-C2A8-28EC-5B5EBB771FEF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E4E95C7-7261-A6D1-971A-5BE75F48EC5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3771973-CA3B-F565-AA0B-5CCB32DDF264" name="dane_logowania_login_un">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>FAA5BC1B-343B-E411-3F9E-DA73FF8DE572</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8396C93F-3451-01B2-D01E-BF7AF64AA627"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68615772-D480-D8DC-BA9D-9CA8DAA0724F" name="dane_logowania__idx">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>B7AB3C58-4109-EC2D-F950-C16EC6472D79</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C63CBCA5-9B7A-FD33-E0F2-86E478622AD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63ECD022-C645-55ED-7BAA-9B3CC2181C53" name="dane_logowania_czytelnicy_fk">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C63CBCA5-9B7A-FD33-E0F2-86E478622AD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

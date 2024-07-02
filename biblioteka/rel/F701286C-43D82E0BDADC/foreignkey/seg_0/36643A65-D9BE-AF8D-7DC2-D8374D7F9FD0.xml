@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="36643A65-D9BE-AF8D-7DC2-D8374D7F9FD0" containerWithKeyObject="4FDE8CB3-1DA8-42C1-7FBF-36CD4F749DB2" localFKIndex="63ECD022-C645-55ED-7BAA-9B3CC2181C53" name="dane_logowania_czytelnicy_fk">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>D15A219E-7441-8BA5-9ECC-05C70743FDE7</importedID>
+<referredTableLongName>czytelnicy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3B8C1DBF-93B5-8FA1-85F7-A6191E8DF34A</referredTableID>
+<keyObject>38F5AC33-0C03-2380-D9B8-A7C45541163C</keyObject>
+<referredKeyID>38F5AC33-0C03-2380-D9B8-A7C45541163C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_czytelnika</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

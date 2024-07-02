@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="zamowienia_towary_fk" directorySegmentName="seg_0" id="973DCE48-E122-4C4B-FCF6-75A655A5F915">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>F5272644-EEC8-F32A-2108-488343889B59</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<sourcePk>863E3F4D-53FA-18A2-738F-90F8711AF51E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2697485A-472A-5592-EE9D-00DC253103F5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>171869A3-C12B-F795-A360-06FB3B9701B4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

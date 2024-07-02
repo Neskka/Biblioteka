@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dane_logowania_czytelnicy_fk" directorySegmentName="seg_0" id="FAF0DDFB-0887-EE04-5FFF-85B2CCBA02FA">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>36643A65-D9BE-AF8D-7DC2-D8374D7F9FD0</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<sourcePk>7DA1FB45-FC0E-9D56-DBF7-D7B031FC588D</sourcePk>
+<dominantRole>79658FDB-C49B-320F-1F25-50D9DF68BEBE</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>79658FDB-C49B-320F-1F25-50D9DF68BEBE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9888EB29-B8D4-21C3-A4EA-C0863E841D97</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

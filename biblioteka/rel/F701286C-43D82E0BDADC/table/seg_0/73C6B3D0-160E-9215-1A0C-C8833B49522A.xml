@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73C6B3D0-160E-9215-1A0C-C8833B49522A" name="komentarze">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>5930F704-8C96-58B7-2CCC-0027CA6E351B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ksiazki_id_ksiazki" id="70B96C3B-B0E9-402B-EB7A-B84CD0400756">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>50695E77-E71E-0992-14E4-A65D8C8683D2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F5316A-B8BF-C028-C075-3A7153BDCF46</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C604D70B-56AC-0C06-1465-FB25F7189F13" referredColumn="7AB92DF0-4713-EBAC-D52D-D6502EB8C81E"/>
+</associations>
+</Column>
+<Column name="czytelnicy_id_czytelnika" id="4A5882CA-EBD0-2518-5680-4346311ADA09">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>F088D3FE-7D42-783E-B778-9121DEA54A74</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7EC250A-9E20-CAFA-671D-8CE5D55635E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F164231-8830-D8B3-FD2D-5FF12EA8DF99" referredColumn="03B4702A-0A8F-B290-C60C-97575B5D83A9"/>
+</associations>
+</Column>
+<Column name="id_komentarza" id="CCCE68BB-F3F4-6168-4F87-D74DF22EDBF3">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>10487D02-88E2-958F-B1CA-821D9B6E3C63</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7EC250A-9E20-CAFA-671D-8CE5D55635E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tresc_komentarza" id="2CE32E12-148A-B3A5-3F5A-237F85ADB24D">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>5622F447-7179-890B-1237-B3211C5DDC8E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BB222BC6-1E2D-B5AD-61AB-3ADD599F0663</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_komentarza" id="156B6D67-3E89-E340-510C-0B36C4D86593">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>6328D47D-EDDD-6896-6691-636178BB1C90</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>38D5B74A-35A6-F61A-610F-5A66A6D37D5E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBCA7FCA-DA0C-E26D-DA73-55DAAC78C92A" name="komentarze_pk">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>E0E41C61-12A5-4286-7628-16112A2DC9AF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCCE68BB-F3F4-6168-4F87-D74DF22EDBF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FFD516C-4A70-B0D5-0961-31404CFFA732" name="komentarze_czytelnicy_fk">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A5882CA-EBD0-2518-5680-4346311ADA09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A60D847-B9D3-C443-27FA-D48989A46AFB" name="komentarze_ksiazki_fk">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70B96C3B-B0E9-402B-EB7A-B84CD0400756"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

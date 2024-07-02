@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CFD1174E-732A-0BB1-D08C-53348414963D" containerWithKeyObject="24A36199-F8DA-01BA-56AE-EE2CEA5DDF5C" localFKIndex="8B53559B-1E52-1A35-147B-D03E234287D9" name="zamowienia_pracownik_filii_fk">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>D08056E1-1103-A2AC-166C-7E8A297EE5B2</importedID>
+<referredTableLongName>pracownik_filii</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BF9DABC0-031A-8E43-E8D1-A82FB5AA16CE</referredTableID>
+<keyObject>52ADAD1E-3494-250B-7A51-BD5AB6C6C7F9</keyObject>
+<referredKeyID>52ADAD1E-3494-250B-7A51-BD5AB6C6C7F9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pracownika_filii</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

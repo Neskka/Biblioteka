@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80B709A8-212D-E3DC-D5F5-338F22813C8A" name="rezerwacje">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>F370C52D-C29F-52D1-F9ED-65268D574E4A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ksiazki_id_ksiazki" id="EADDED55-48D7-C085-42A0-30E3476375B0">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>EE6E6F03-2569-A4E7-0BB7-A37C392B4CD5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F5316A-B8BF-C028-C075-3A7153BDCF46</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6F7CBF8-A4E9-B1E9-1CF2-AFEDC681EF07" referredColumn="7AB92DF0-4713-EBAC-D52D-D6502EB8C81E"/>
+</associations>
+</Column>
+<Column name="id_rezerwacji" id="C03FE48A-38F0-6E7D-1937-CF374B1B4635">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>F5CE1D40-ED70-1E36-7B68-330895A16734</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7EC250A-9E20-CAFA-671D-8CE5D55635E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numer_w_kolejce" id="CF8732B0-3E20-33F8-EBBD-EEBA6A7D7A9D">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>ED4BA118-94EA-1853-FE22-0C082ABF27B9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>520DFA65-C5F9-5656-D680-CAB6E23838CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="czytelnicy_id_czytelnika" id="13A51B7D-E0CC-2DC8-AE8C-BCDC48213D4E">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>9DA52D94-0E1B-1E5B-0DBC-2DD338038BF0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7EC250A-9E20-CAFA-671D-8CE5D55635E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DE65B51-8E9B-8D61-6DB3-5FF9C7F4CBDB" referredColumn="03B4702A-0A8F-B290-C60C-97575B5D83A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A62E794E-529F-F298-B06A-3A0CED85A783" name="rezerwacje_pk">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>415A7D6C-4CF0-C2AD-02FC-0DCC1487C4F6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C03FE48A-38F0-6E7D-1937-CF374B1B4635"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="247B59F4-4911-7151-7777-9BABD40EB37F" name="rezerwacje_czytelnicy_fk">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13A51B7D-E0CC-2DC8-AE8C-BCDC48213D4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5976BC3-BB4F-53A9-52E4-4DBEF15C0F62" name="rezerwacje_ksiazki_fk">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EADDED55-48D7-C085-42A0-30E3476375B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

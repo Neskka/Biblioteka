@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ksiazki_pozycja_fk" directorySegmentName="seg_0" id="EF4A6AA4-98E3-E36A-698F-367F5A17D14E">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>A5BB43E2-1D25-4FA2-BD2E-5DD2A7FC7985</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<sourcePk>47DE6D10-AF4A-B919-9304-C9540E4FC406</sourcePk>
+<dominantRole>6C941755-F09A-8657-9ACD-ADF6EF909082</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6C941755-F09A-8657-9ACD-ADF6EF909082</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F6DEF79F-85C5-E0C6-7BEC-E71B667D0371</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

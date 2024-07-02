@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rezerwacje_czytelnicy_fk" directorySegmentName="seg_0" id="147B1DC4-E4F6-2829-4817-931762BB4803">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>4DE65B51-8E9B-8D61-6DB3-5FF9C7F4CBDB</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<sourcePk>7DA1FB45-FC0E-9D56-DBF7-D7B031FC588D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>79658FDB-C49B-320F-1F25-50D9DF68BEBE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9D03CE72-C7EB-8D96-B4F0-E2ED5F8E03FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

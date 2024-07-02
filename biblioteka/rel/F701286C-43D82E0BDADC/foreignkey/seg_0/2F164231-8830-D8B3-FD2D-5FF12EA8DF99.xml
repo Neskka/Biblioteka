@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F164231-8830-D8B3-FD2D-5FF12EA8DF99" containerWithKeyObject="73C6B3D0-160E-9215-1A0C-C8833B49522A" localFKIndex="8FFD516C-4A70-B0D5-0961-31404CFFA732" name="komentarze_czytelnicy_fk">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>FE89E308-B5C8-3E91-2C8F-9578B3D776E4</importedID>
+<referredTableLongName>czytelnicy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3B8C1DBF-93B5-8FA1-85F7-A6191E8DF34A</referredTableID>
+<keyObject>38F5AC33-0C03-2380-D9B8-A7C45541163C</keyObject>
+<referredKeyID>38F5AC33-0C03-2380-D9B8-A7C45541163C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_czytelnika</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

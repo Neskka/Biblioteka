@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pracownik_filii_filie_fk" directorySegmentName="seg_0" id="58A71233-33BE-7320-AD21-7805B934494F">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>C4FD69A4-F928-9952-2DC0-EA228469D217</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<sourcePk>9085D2E3-9FC9-872E-997F-E1DA6AD3C085</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D347809-A63D-468B-A98D-750FA8F5B2CC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A6A26683-BDA4-079B-8506-698E5C581FDE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5272644-EEC8-F32A-2108-488343889B59" containerWithKeyObject="24A36199-F8DA-01BA-56AE-EE2CEA5DDF5C" localFKIndex="6C1E57F3-ECF7-BE9A-355B-949064D04CD0" name="zamowienia_towary_fk">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>43EAC097-7E1C-07A4-3CA8-C462FBF5853D</importedID>
+<referredTableLongName>towary</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B35081C-509D-F770-EFFB-9CD45475C028</referredTableID>
+<keyObject>0956EFF1-69C7-87F9-5457-DCC923A10F75</keyObject>
+<referredKeyID>0956EFF1-69C7-87F9-5457-DCC923A10F75</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_towaru</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

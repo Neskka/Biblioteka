@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="biblioteka" id="93258383-71A8-13BB-FA5C-1CFDEC77FD3E" version="3.5">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:19:41 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>93258383-71A8-13BB-FA5C-1CFDEC77FD3E</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8C158C61-56E4-3098-157D-A5822750479C">
+<designStoragePath>C:\projekt_prawidlowy</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="komentarze_ksiazki_fk" directorySegmentName="seg_0" id="D3040B75-992D-7A3C-737A-3A2590AFC148">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>C604D70B-56AC-0C06-1465-FB25F7189F13</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<sourcePk>3C5128B6-B68B-39D3-C2B5-5DDD84E825CA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F6DEF79F-85C5-E0C6-7BEC-E71B667D0371</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C28C3301-27FB-937A-5528-DADFBB64FC63</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

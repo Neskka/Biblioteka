@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="652BE029-29E5-5600-A483-0B19C7447C6C" mainViewID="A29510F4-B50F-AAD4-DD30-F73B61CE4F9C">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:19:41 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

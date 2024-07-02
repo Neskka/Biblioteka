@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="oceny_ksiazki_fk" directorySegmentName="seg_0" id="8A15C69F-28F4-2C25-9741-0A4A85FE4E84">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:21:15 UTC</createdTime>
+<generatorID>4DA98673-065C-CD4B-D02E-F38874C6DC42</generatorID>
+<ownerDesignName>biblioteka</ownerDesignName>
+<engineerTo>
+<item key="F701286C-FB88-C013-3F5B-43D82E0BDADC" value="true"/>
+</engineerTo>
+<sourcePk>3C5128B6-B68B-39D3-C2B5-5DDD84E825CA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F6DEF79F-85C5-E0C6-7BEC-E71B667D0371</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5A16DB8E-C3A4-63AC-7574-250BC579DE2E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

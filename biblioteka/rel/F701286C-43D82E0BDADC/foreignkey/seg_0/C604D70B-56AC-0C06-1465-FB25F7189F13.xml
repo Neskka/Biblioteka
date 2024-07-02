@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C604D70B-56AC-0C06-1465-FB25F7189F13" containerWithKeyObject="73C6B3D0-160E-9215-1A0C-C8833B49522A" localFKIndex="8A60D847-B9D3-C443-27FA-D48989A46AFB" name="komentarze_ksiazki_fk">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>048830AB-25BE-2FF2-8C04-E601B199DA8D</importedID>
+<referredTableLongName>ksiazki</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>198F324C-B0C9-1E6B-6304-B6C6405A673B</referredTableID>
+<keyObject>2C297BD1-7D46-1C5D-614C-75302A2C245B</keyObject>
+<referredKeyID>2C297BD1-7D46-1C5D-614C-75302A2C245B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ksiazki</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

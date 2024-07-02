@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C4FD69A4-F928-9952-2DC0-EA228469D217" containerWithKeyObject="BF9DABC0-031A-8E43-E8D1-A82FB5AA16CE" localFKIndex="53EEA8B7-450E-9B00-4BEA-A8FFB8A4D479" name="pracownik_filii_filie_fk">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>EBA93334-86EB-D0F5-7F89-A31492794F50</importedID>
+<referredTableLongName>filie</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9774E81F-CD00-A4A5-AA5F-735F78F4D90D</referredTableID>
+<keyObject>337272F1-37AC-1635-384C-FE95017A5CE1</keyObject>
+<referredKeyID>337272F1-37AC-1635-384C-FE95017A5CE1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_filii</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="B4FED1E1-3061-96F4-571A-EB1352EB9717">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:19:42 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11A5BDD0-2080-1709-ABF5-5F58D9F40165" name="oceny">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>BBEF97E2-145B-C614-67F4-E93D0FCCB297</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ksiazki_id_ksiazki" id="5A6CA8F5-7635-99A0-CCF7-85EBF6D95FD9">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>28FD1EC6-4ED8-08FB-05A2-0DBC3D3B6885</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F5316A-B8BF-C028-C075-3A7153BDCF46</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DA98673-065C-CD4B-D02E-F38874C6DC42" referredColumn="7AB92DF0-4713-EBAC-D52D-D6502EB8C81E"/>
+</associations>
+</Column>
+<Column name="czytelnicy_id_czytelnika" id="4D4527BE-1FDE-6BAB-B5C5-7902613C73BD">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>012BBC5B-7A0B-8619-4F59-8C5D00B45455</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7EC250A-9E20-CAFA-671D-8CE5D55635E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58ED6B9C-CE25-5C98-B772-E3B690B63F4C" referredColumn="03B4702A-0A8F-B290-C60C-97575B5D83A9"/>
+</associations>
+</Column>
+<Column name="id_oceny" id="AD1353FC-3B6E-E14B-5166-14EE73E54CA0">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>2B24AE91-4597-273D-FDA7-E2E61B688CB1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A7EC250A-9E20-CAFA-671D-8CE5D55635E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="liczba_gwiazdek" id="C8EE02A4-E4B6-C1C4-87E1-21A0E5F3B21F">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>F8638BB6-A3A3-78FF-AF3A-C0C60B677DDE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>520DFA65-C5F9-5656-D680-CAB6E23838CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E35FC2A-4D9D-C04A-D256-278D071292B3" name="oceny_pk">
+<sourceDDLFile>projekt_prawidlowy.ddl</sourceDDLFile>
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<importedID>AB617569-0682-B230-4992-0164572A954B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD1353FC-3B6E-E14B-5166-14EE73E54CA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5B2F435-1875-F5DB-5BCC-1153D84D341B" name="oceny_czytelnicy_fk">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D4527BE-1FDE-6BAB-B5C5-7902613C73BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3522DE2-14B0-A960-E13C-DE1AD528BB0F" name="oceny_ksiazki_fk">
+<createdBy>agama</createdBy>
+<createdTime>2024-07-02 16:20:46 UTC</createdTime>
+<ownerDesignName>biblioteka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A6CA8F5-7635-99A0-CCF7-85EBF6D95FD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
